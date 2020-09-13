@@ -9,5 +9,3 @@ def bubble_sort(data,drawData, timeTick):
                 drawData(data,['yellow' if x == j or x == j+1 else "#A90042" for x in range(len(data))])
                 time.sleep(timeTick)
     drawData(data, ['yellow' for i in range(len(data))])
-
-
